@@ -33,8 +33,8 @@ nav ul{
   
   display: flex;
   gap: 20px;
-  justify-content: space-between;
-  margin-right: 5px; 
+  margin-right: 20px;
+  margin-left: auto; 
   
   
   
@@ -110,7 +110,7 @@ transition: 1s;
 
 /*Home Page*/
 
-.home{
+#home{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -179,8 +179,11 @@ padding: 20px 0;
     padding: 10px;
     border: 1px solid black;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .home-text-social a i:hover{
-    color: #07a824;
+    color: #fafafa;
+    background-color: black;
+
 }
