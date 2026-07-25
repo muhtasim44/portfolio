@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Times New Roman;
+  scroll-behavior: smooth;
+  
+}
+
+.hero-logo{
+   align-items: center;
+   justify-content: center;
+   margin: 20px 15px;
+}
+.hero-logo > img{
+    width:auto;
+    height: 60px;
+  
+}
+  
+
+nav{
+  background: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  box-shadow:0 02px 20px #a2a2a2 ;
+  align-items: center;
+  
+  
+ 
+}  
+nav ul{
+  
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+  margin-right: 5px; 
+  
+  
+  
+  
+}
+nav ul li {
+ list-style:none; 
+ padding: 20px 12px;
+ transition: 0.5s;
+ 
+ 
+}
+
+nav ul li:hover{
+  cursor: pointer;
+  
+  
+}
+
+nav ul li a{
+    position: relative;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+nav ul li a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #045b14;
+    transition: width 0.4s ease;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+.login-btn {
+padding: 10px 21px;
+background:#045b14 ;
+color: white;
+border-radius: 5px;
+border-style: none;
+margin: 25px 25px;
+font-size: 17px;
+
+
+cursor: pointer;
+transition: 1s;
+
+}
+
+.login-btn i{
+    color: white;
+    margin-left: 10px;
+    
+}
+.login-btn:hover{
+  
+  background: white;
+  color: black;
+  border: 1px solid #129b00;
+}
+
+.login-btn:hover i{
+    color: black;
+}
+
+/*Home Page*/
+
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 90px;
+    margin-right: 120px;
+
+}
+
+
+.home-image > img{
+    width: auto;
+    height: 520px;
+    display: block;
+    margin-top: 20px;
+
+}
+
+.home-text > h5{
+font-size: 25px;
+padding: 20px 0;
+}
+
+.home-text > h2{
+
+    font-size: 60px;
+   
+}
+.home-text > h2 > span{
+
+    font-size: 60px;
+    color: #07a824;
+   
+}
+
+.home-text > h3{
+
+    font-size: 20px;
+    padding: 10px 0;
+     font-family: "Satisfy", cursive;
+
+}
+
+.home-text > p{
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+   
+}
+
+.home-text-social{
+    display: flex;
+    gap: 20px;
+    padding: 15px 0;
+}
+
+
+
+.home-text-social i{
+   
+   text-decoration: none;
+    font-size: 25px;
+    color: black;
+    transition: .3s;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.home-text-social a i:hover{
+    color: #07a824;
+}
